@@ -129,20 +129,6 @@ html, body {
     border-top: 1px solid rgba(235,235,235, 0.25);
 }
 
-nav ul {
-    display: flex;
-    align-items: center;
-}
-
-nav li {
-    padding:  0 0 15px;
-    margin-left: 15px;
-}
-
-nav li.last-item {
-    margin-right: 15px;
-}
-
 
 a {
     text-decoration: none;
@@ -159,9 +145,7 @@ a:hover {
     text-decoration: underline;
 }
 
-li {
-    list-style-type: none;
-}
+
 
 .search {
     display: flex;
