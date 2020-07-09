@@ -85,6 +85,50 @@ html, body {
     border: 3px solid #e1e2e6;
     border-radius: 50%;
 }
+.top-nav {
+    position: relative;
+}
+.top-nav ul {
+    position: relative;
+    top: -20px;
+    margin-left: 160px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.top-nav li {
+    list-style: none;
+    padding: 1em;
+}
+.top-nav a {
+    text-decoration: none;
+    color: #5f6268;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+}
+.top-nav img {
+    float: left;
+}
+.top-nav li:first-child a:first-child {
+    color: #1d74e8;
+}
+#last-second-item {
+    margin-left: 40px;
+}
+.navigation-line {
+    position: relative;
+    top: -23px;
+    width: 55px;
+    border: 2px solid #1a72e8;
+    margin-left: 166px;
+}
+.horizontal-line {
+    position: relative;
+    top: -25px;
+    border-top: 1px solid rgba(235,235,235, 0.25);
+}
+
 nav ul {
     display: flex;
     align-items: center;
