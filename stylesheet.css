@@ -61,6 +61,30 @@ html, body {
     right: 1em;
     top: 7px;
 }
+#search-icon {
+    position: absolute;
+    right: 1em;
+    top: 7px;
+}
+#google-menu {
+    margin-left: auto;
+    margin-right: 1em;  
+}
+#google-menu img {
+    border: 7px solid white;
+}
+#google-menu img:hover {
+    border: 7px solid #e1e2e6;
+    border-radius: 50%;
+}
+#google-account img{
+    margin-right: 1em;
+    border: 3px solid white;
+}
+#google-account img:hover {
+    border: 3px solid #e1e2e6;
+    border-radius: 50%;
+}
 nav ul {
     display: flex;
     align-items: center;
