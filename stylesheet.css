@@ -31,6 +31,30 @@ html, body {
     width: 110px;
     margin: 10px 30px 0 20px;
 }
+
+.search-bar {
+    position: relative;
+}
+
+#google-search-bar {
+    width: 700px;
+    height: 46px;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    border: 1px solid #e1e2e6;
+}
+#microphone {
+    position: absolute;
+    right: 3.5em;
+    top: 5px;
+}
+#search-icon {
+    position: absolute;
+    right: 1em;
+    top: 7px;
+}
 nav ul {
     display: flex;
     align-items: center;
