@@ -3,6 +3,11 @@ html, body {
 
 }
 
+.search-header {
+    display: flex;
+    align-items: center;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -19,6 +24,12 @@ html, body {
     display: flex;
     justify-content: center;
     padding-top: 109px;
+}
+
+#google-logo {
+    align-self: flex-start;
+    width: 110px;
+    margin: 10px 30px 0 20px;
 }
 nav ul {
     display: flex;
